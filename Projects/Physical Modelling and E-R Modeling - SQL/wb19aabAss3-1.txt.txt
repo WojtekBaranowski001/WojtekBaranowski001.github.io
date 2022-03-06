@@ -1,0 +1,238 @@
+
+NAME                           FRUIT FRUIT_COLOUR    YIELD   
+------------------------------ ----- --------------- --------
+Ambassy                        Early Red             Heavy   
+American Mother                Early Red             Moderate
+Arthur Turner                  Early Pink            Heavy   
+Crimson Gravenstein            Early Red             Light   
+Irish Peach                    Early Yellow          Moderate
+James Grieve                   Early Red             Heavy   
+Kidd's Orange Red              Early Orange-Red      Heavy   
+White Joaneting                Early Yellow          Light   
+
+8 rows selected. 
+
+
+VARIETY                             PRICE ID    
+------------------------------ ---------- ------
+Vernade                              98.6 000067
+Underleaf                            95.6 000066
+Vernade                                93 000068
+Lord Burghley                        89.5 000075
+Ingall's Pippin                      69.9 000029
+Lord Burghley                        69.8 000039
+Christmas Pearmain                   68.3 000015
+Api Rose                             66.8 000004
+Ingall's Pippin                      61.4 000028
+Underleaf                            60.5 000063
+Golden Noble                         56.6 000026
+
+VARIETY                             PRICE ID    
+------------------------------ ---------- ------
+Decio                                  56 000022
+Costard                              52.8 000016
+Decio                                51.5 000023
+Orangenburg                          51.2 000043
+White Joaneting                      50.4 000069
+White Joaneting                      50.4 000070
+Edward VII                           49.7 000024
+Underleaf                            49.2 000065
+Underleaf                            49.2 000064
+Crawley Beauty                       47.9 000017
+Stoke Red                              47 000059
+
+VARIETY                             PRICE ID    
+------------------------------ ---------- ------
+Braeburn                               47 000076
+Crawley Beauty                       46.2 000019
+Orangenburg                          46.1 000046
+American Mother                      45.6 000002
+James Grieve                           45 000033
+Christmas Pearmain                     45 000071
+Pinova                                 45 000051
+Golden Noble                         43.5 000027
+Feille Morte                         42.6 000025
+Crimson Gravenstein                  41.6 000021
+Stoke Red                              41 000058
+
+VARIETY                             PRICE ID    
+------------------------------ ---------- ------
+American Mother                      39.3 000003
+Kidd's Orange Red                      38 000073
+Crawley Beauty                         37 000018
+Chiver's Delight                     36.8 000014
+Tentation                            36.6 000060
+Tentation                            36.6 000061
+Crawley Beauty                       35.2 000020
+Irish Peach                            35 000031
+Chiver's Delight                     34.6 000013
+Pinova                               34.2 000050
+Ambassy                              34.2 000001
+
+VARIETY                             PRICE ID    
+------------------------------ ---------- ------
+Orangenburg                          33.6 000048
+Blenheim Orange                      33.4 000005
+Orangenburg                          33.3 000045
+Kidd's Orange Red                    31.8 000037
+Tentation                            31.7 000062
+Orangenburg                          31.2 000047
+James Grieve                           31 000035
+Kidd's Orange Red                    30.8 000038
+Orangenburg                          29.8 000044
+Royal Gala                           29.7 000054
+Pinova                               29.4 000049
+
+VARIETY                             PRICE ID    
+------------------------------ ---------- ------
+Blenheim Orange                      28.6 000006
+Kidd's Orange Red                    28.5 000072
+Newton Wonder                        27.4 000041
+Braeburn                             27.2 000007
+Irish Peach                          25.8 000032
+Bramley's Seedling                  25.75 000074
+Braeburn                               25 000009
+Bramley's Seedling                   24.5 000010
+Irish Peach                          24.3 000030
+Bramley's Seedling                     24 000012
+Newton Wonder                          23 000042
+
+VARIETY                             PRICE ID    
+------------------------------ ---------- ------
+James Grieve                           23 000034
+Braeburn                             22.6 000008
+Royal Gala                           22.6 000053
+Royal Gala                           22.6 000056
+James Grieve                         22.5 000036
+Royal Gala                           21.8 000057
+Bramley's Seedling                   21.8 000011
+Newton Wonder                        19.6 000040
+Royal Gala                           17.6 000055
+Royal Gala                           17.4 000052
+
+76 rows selected. 
+
+
+MAX(QUANTITY)
+-------------
+            5
+
+
+NAME                                               
+---------------------------------------------------
+Claire Holmsworthy
+Claire Wilson
+Claire Maynard
+
+
+ORDER_ID Number of trees
+-------- ---------------
+00000061               5
+00000015               5
+00000010               4
+00000003               4
+00000032               4
+00000007               3
+00000024               3
+00000040               3
+00000052               3
+00000018               3
+00000072               3
+
+ORDER_ID Number of trees
+-------- ---------------
+00000047               3
+00000063               3
+00000002               3
+00000068               3
+00000011               2
+00000070               2
+00000034               2
+00000045               2
+00000066               2
+00000046               2
+00000016               2
+
+ORDER_ID Number of trees
+-------- ---------------
+00000036               2
+00000009               2
+00000021               2
+00000057               2
+00000017               2
+00000025               2
+
+28 rows selected. 
+
+
+NAME                           ID    
+------------------------------ ------
+Crimson Gravenstein            000021
+White Joaneting                000069
+White Joaneting                000070
+
+
+GIVEN_NAME                     FAMILY_NAME          CUSTOM
+------------------------------ -------------------- ------
+Monty                          Cleb                 C67076
+Mel                            Dixon                C57453
+Anthony                        Gaye                 C26453
+Carrie                         Genoa                C22224
+James                          Glade                C89358
+Grace                          Leeman               C54767
+Terence                        Leeman               C55806
+Ian                            Lewis                C39526
+Sunil                          Malik                C83772
+Harry                          Mannock              C73847
+Claire                         Maynard              C62223
+
+GIVEN_NAME                     FAMILY_NAME          CUSTOM
+------------------------------ -------------------- ------
+Boris                          Oslovski             C12382
+Junior                         Parraman             C49822
+Greta                          Pearsson             C22675
+Jill                           Rivers               C34673
+Mona                           Rivers               C65893
+Talia                          Roberts              C78452
+Gordon                         Slade                C21838
+Reece                          Southern             C88764
+Ruth                           Tuttle               C83918
+Lui                            Yang                 C88335
+Able                           Zimmerman            C39202
+
+22 rows selected. 
+
+
+NAME                                                 PHONE_NO    TOTAL_TREES ORDER_DAT
+---------------------------------------------------- ----------- ----------- ---------
+Rusman ,Clyde                                        05382811759           1 02-JAN-20
+Mann ,Harry                                          06462347295           1 02-JAN-20
+Amman ,Said                                          06726767529           1 02-JAN-20
+Legion ,Craig                                        06399823840           1 26-DEC-19
+Neo ,Rebecca                                         05283283285           1 01-OCT-19
+Partman ,Clive                                       N/A                   1 13-MAR-20
+Silver ,Richard                                      01433628388           3 02-JAN-20
+Holmsworthy ,Claire                                  01198345284           1 06-DEC-19
+
+8 rows selected. 
+
+
+NAME                           FRUIT YIELD   
+------------------------------ ----- --------
+Kidd's Orange Red              Early Heavy   
+
+
+FULLNAME                                            ADDRESS                                                                                                                                                           REGISTERED
+--------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------
+Baranowski Wojtek                                   45,Thompsons Lane London                                                                                                                                          11.4107139
+
+
+NAME                                                ADDRESS                                                                                                                                                           VARIETY                          QUANTITY      PRICE
+--------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------ ---------- ----------
+Baranowski Wojtek                                   45,Thompsons Lane London                                                                                                                                          Crawley Beauty                          1       47.9
+
+
+ORDER_ID Number of Trees Total price                             
+-------- --------------- ----------------------------------------
+00000072               4 133.6                                   
+
