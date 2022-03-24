@@ -326,7 +326,7 @@ nav ul li {
         gap: 0;
     }
     .hero img { 
-        height: 37.5rem; 
+        height: 25rem;
         width: 30rem; 
     }
     .bio { 
@@ -356,10 +356,7 @@ nav ul li {
     .contact-form-container { 
       max-width: 23.75rem; 
     }
-    .hero img { 
-      height: 25.5rem;
-      width: 25.5rem;
-    }
+    
 
 }
 
