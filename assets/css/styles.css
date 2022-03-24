@@ -297,10 +297,9 @@ nav ul li {
 }
 @media screen and (max-width: 720px) {
     /*changes reflects on screen with a width of 720px and below*/
-nav { 
+      nav { 
     padding: 1.5rem 1rem;
-}
-
+      }
     nav ul {
         position: fixed;
         background-color: var(--bg-color);
@@ -356,6 +355,10 @@ nav {
     }
     .contact-form-container { 
       max-width: 23.75rem; 
+    }
+    .hero img { 
+      height: 25.5rem;
+      width: 25.5rem;
     }
 
 }
