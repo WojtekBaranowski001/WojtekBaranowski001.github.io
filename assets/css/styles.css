@@ -321,14 +321,14 @@ nav ul li {
         transform: translateX(0);
     }
     .hero {
-        margin-top: -4rem;
+        margin-top: 2.2rem;
         flex-direction: column;
         gap: 0;
     }
     .hero img { 
         height: 30rem;
         width: 25rem; 
-        margin-top: 2.5rem; 
+        
     }
     .bio { 
         margin-top: 7rem; 
