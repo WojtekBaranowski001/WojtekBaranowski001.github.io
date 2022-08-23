@@ -297,10 +297,9 @@ nav ul li {
 }
 @media screen and (max-width: 720px) {
     /*changes reflects on screen with a width of 720px and below*/
-nav { 
+      nav { 
     padding: 1.5rem 1rem;
-}
-
+      }
     nav ul {
         position: fixed;
         background-color: var(--bg-color);
@@ -322,13 +321,14 @@ nav {
         transform: translateX(0);
     }
     .hero {
-        margin-top: -4rem;
+        margin-top: 2.2rem;
         flex-direction: column;
         gap: 0;
     }
     .hero img { 
-        height: 37.5rem; 
-        width: 30rem; 
+        height: 25rem;
+        width: 25rem; 
+        
     }
     .bio { 
         margin-top: 7rem; 
@@ -344,6 +344,23 @@ nav {
     .more-about p {
         text-align: justify; 
     }
+    .icon { 
+      width: 5.875rem; 
+      height: 5.25rem; 
+    }
+    .projects-container { 
+      flex-direction: column;
+    }
+    .project-container {
+      width: 20.875rem;
+    }
+    .contact-form-container { 
+      max-width: 23.75rem; 
+    }
+    
+
+
+    
 
 }
 
