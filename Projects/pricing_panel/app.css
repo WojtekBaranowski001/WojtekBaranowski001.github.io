@@ -1,0 +1,154 @@
+/* call in the font family */
+/* border-box - This makes dealing with the sizes of elements much easier, 
+and generally eliminates a number of pitfalls you can stumble on while laying out your content */
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* set the background color of the whole document  
+/* change the display to flex so it's easier to work with 
+move the conent of the body to the center 
+*/
+body {
+  background-color: #60a9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* give the main div with class .panel background color white;  */
+.panel {
+  background-color: white;
+  /* round corners of the border */
+  border-radius: 10px;
+  /* adding padding top-bottom left-right */
+  padding: 15px 25px;
+  /* 100% width of the parent element */
+  width: 100%;
+  /* it wont be bigger than 900px  */
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  /* align text to center */
+  text-align: center;
+  /* make it uppercase */
+  text-transform: uppercase;
+}
+
+/* add the border to the bottom of the the divs  */
+.pricing-plan {
+  border-bottom: 1px solid #e1f1ff;
+}
+/* remove the border from the last div  */
+.pricing-plan:last-child {
+  border-bottom: none;
+}
+
+/* add the marging at the bottom of the image */
+.pricing-img {
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+/* set the color of the header, change the boldness and 
+set the space between the letter to 1px  */
+.pricing-header {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+/* add margin to the top and bottom but nothing on the sides
+set the color   */
+.pricing-features {
+  margin: 50px 0 25px;
+  color: #016ff9;
+}
+
+/* select a list inside an ui
+change the boldness of the text, letter-spacing to 1px, font size 
+line-height - It's commonly used to set the distance between lines of text.
+add padding to top and bottom but not right and left 
+add border to the top */
+.pricing-features-item {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 15px 0;
+  border-top: 1px solid #e1f1ff;
+}
+
+/* add a border line to the last item */
+.pricing-features-item:last-child {
+  border-bottom: 1px solid #e1f1ff;
+}
+
+/* change the color of the pricing-price, change the display, 
+font-size and font weight  */
+.pricing-price {
+  color: #016ff9;
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* add the border to the button
+make the radius 10px (round corners)
+ change the color of the text
+ add inline-block display (The element generates a block box that will be flowed with surrounding content as 
+ if it were a single inline box (behaving much like a replaced element would)).
+ add padding top and bottom (15px) left and right (35px) 
+ text-declaration - remove the line underneath the link 
+ add margin top and bottom (25px) left and right (0px) 
+ add the transition to the background color with 200ms (ease-in-out)
+
+ */
+
+.pricing-button {
+  border: 1px solid #9dd1ff;
+  border-radius: 10px;
+  color: #348efe;
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  margin: 25px 0;
+  transition: background-color 200ms ease-in-out;
+}
+
+/* change background color of the button when hover it 
+focus = It is generally triggered when the user clicks or taps on an element or selects it */
+.pricing-button:hover,
+.pricing-button:focus {
+  background-color: #e1f1ff;
+}
+
+/* middle price button change the color and background-color */
+.pricing-button.is-featured {
+  background-color: #48aaff;
+  color: white;
+}
+
+/* when middle price button is hove and focus change the background color sligtly  */
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:focus {
+  background-color: #269aff;
+  color: white;
+}
+
+/* change the flex-direction to row when <900px */
+@media (min-width: 900px) {
+  .panel {
+    flex-direction: row;
+  }
+  /* remove the bottom border and border-right and padding to all sides */
+  .pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    padding: 25px 50px;
+  }
+  /* remove the border on the right side when in row direction */
+  .pricing-plan:last-child {
+    border-right: none;
+  }
+}
